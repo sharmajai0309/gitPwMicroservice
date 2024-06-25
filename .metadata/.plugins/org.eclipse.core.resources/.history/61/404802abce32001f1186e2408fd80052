@@ -1,0 +1,17 @@
+package com.example.demo.bean;
+
+public class JavaCourseMaterial implements icoursMaterial {
+
+	@Override
+	public String CourseCountent() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String Price() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

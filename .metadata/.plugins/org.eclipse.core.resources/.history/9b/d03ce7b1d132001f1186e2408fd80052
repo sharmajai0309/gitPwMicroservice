@@ -1,0 +1,15 @@
+package com.example.demo.bean;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Student {
+
+
+	 private iMaterial material;
+	 public void preparation(String examName) {
+		 System.out.println("Student preparation for " + examName);
+		 
+	 }
+	 
+}

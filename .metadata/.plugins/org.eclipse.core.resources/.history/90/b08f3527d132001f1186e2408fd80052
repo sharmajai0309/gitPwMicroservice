@@ -1,0 +1,26 @@
+package com.example.demo.bean;
+
+import org.springframework.stereotype.Component;
+
+@Component("java")
+public final class JavaCourseMaterial implements icoursMaterial {
+
+	static {
+		System.out.println("Java Course Material is loaded ");
+	}
+	public JavaCourseMaterial() {
+		System.out.println("Java Course Material object is loaded");
+	}
+	@Override
+	public String CourseCountent() {
+		// TODO Auto-generated method stub
+		return "first learn oops";
+	}
+
+	@Override 
+	public Double Price() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
